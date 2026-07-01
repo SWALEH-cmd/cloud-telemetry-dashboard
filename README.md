@@ -43,6 +43,8 @@ As a Cloud Support Associate, my task was to write an optimized relational datab
 
 ---
 
+---
+
 #  Lab 2: Security Audit & Incident Response Ledger
 
 ##  Project Overview
@@ -69,10 +71,16 @@ As a Cloud Support Associate, my task was to build an isolation matrix to evalua
 
 ---
 
+##  Tech Stack & Environment
+* **OS:** Linux (Ubuntu)
+* **Database Engine:** SQLite3
+
+---
+
 ##  Terminal Verification & Output Proof
 
 ### 1. Workspace and Environment Setup
-![Workspace Setup](Lab2_Security_Audit/WorkspaceSetup.png)
+![Workspace Setup](WorkspaceSetup.png)
 
 ### 2. Live Terminal Security Query Output Results
-![Terminal Output](Lab2_Security_Audit/DatabaseOutput.png)
+![Terminal Output](DatabaseOutput.png)
