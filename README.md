@@ -67,7 +67,7 @@ As a Cloud Support Associate, my task was to build an isolation matrix to evalua
 
 ###  Result
 * Successfully mapped raw system traffic into a structured alert dashboard, separating legitimate actions from perimeter threats instantly.
-* Isolated brute-force points of origin, automatically applying critical isolation directives (`🚨 CRITICAL THREAT: ISOLATE IP`) to compromised nodes without manually reviewing raw logs.
+* Isolated brute-force points of origin, automatically applying critical isolation directives (`CRITICAL THREAT: ISOLATE IP`) to compromised nodes without manually reviewing raw logs.
 
 ---
 
@@ -84,3 +84,47 @@ As a Cloud Support Associate, my task was to build an isolation matrix to evalua
 
 ### 2. Live Terminal Security Query Output Results
 ![Terminal Output](DatabaseOutput.png)
+
+
+
+---
+
+# Lab 3: Cloud Resource Capacity Optimization
+
+##  Project Overview
+An operational data analytics script built to evaluate block storage allocation footprints, calculate unutilized hardware volumes, and project financial waste vectors across active infrastructure deployments.
+
+---
+
+##  The STAR Breakdown
+
+###  Situation
+An enterprise multi-cloud environment was incurring inflated operational billing due to overallocated storage metrics. Infrastructure provisioning limits were consistently reaching budget thresholds, but cloud monitoring pipelines lacked direct cost-to-waste correlation layers to target over-provisioned block devices for volume shrinking.
+
+###  Task
+As a Cloud Support Associate, my task was to program an asset evaluation matrix to cross-examine disk drive allocations against actual usage metrics. The solution needed to flag disks wasting more than 50 GB of storage and compute the direct monthly dollar waste value to guide automated rightsizing directives.
+
+###  Action
+* **Storage Matrix Schema:** Engineered a relational tracking framework (`storage_volumes`) storing provisioned sizing capacities, real-time telemetry metrics, and provider localized unit cost parameters.
+* **Derived Metrics Implementation:** Structured dynamic multi-column mathematical evaluations directly within the selection logic (`allocated_gb - used_gb`) to isolate precise capacity variables on the fly.
+* **Financial Waste Projection:** Formulated custom transactional equations to translate abstract gigabyte voids into localized recurring cost estimates (`monthly_waste_usd`) to instantly highlight financial leakage priorities.
+
+###  Result
+* Isolated high-capacity cloud disks operating under a 20% efficiency threshold, surfacing exactly where infrastructure budgets were being wasted.
+* Surface immediate actionable target drives for degradation scaling operations, paving a clear track to reclaim unutilized storage overhead effortlessly.
+
+---
+
+##  Tech Stack & Environment
+* **OS:** Linux (Ubuntu)
+* **Database Engine:** SQLite3
+
+---
+
+##  Terminal Verification & Output Proof
+
+### 1. Workspace and Environment Setup
+![Workspace Setup](Lab3Setup.png)
+
+### 2. Live Terminal Query Output Results
+![Terminal Output](Lab3Output.png)
